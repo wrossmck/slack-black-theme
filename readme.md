@@ -37,20 +37,13 @@ document.addEventListener("DOMContentLoaded", function() {
    let customCustomCSS = `
    :root {
       /* Modify these to change your theme colors: */
-      --primary: #09F;
-      --text: #CCC;
-      --background: #080808;
-      --background-elevated: #222;
-   } 
-
-   a[aria-label^="NAME_OF_CHANNEL_OR_DIRECT_CONVO_TO_STYLE"]
-   {
-        --background: #4d0000  !important;
-        --text-transform: uppercase  !important;
-        --letter-spacing: 2px !important;
-        --text-shadow: 1px 1px white;
-
-    }   `
+      --primary: #00FFB7;
+      --text: #CC029A;
+      --text-bright: #FF00BF;
+      --text-special: #00FFB7;
+      --background: #000000;
+      --background-elevated: #000000;
+   }`
 
    // Insert a style tag into the wrapper view
    cssPromise.then(css => {
